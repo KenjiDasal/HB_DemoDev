@@ -26,8 +26,9 @@ As this is an early build of the game and cannot be exported, follow these steps
 1. Open Oculus Quest Link and ensure your headset is connected.
 2. Alternatively, use OpenXR for the Oculus or SteamVR (downloadable through Steam).
 3. Open Unreal Engine with your preferred version (5.1.1 upwards).
-4. Next to the play button in Unreal Engine, click the three dots and select "VR Preview."
-5. If VR Preview is greyed out, close Unreal Engine, SteamVR/OpenXR, and reopen them, ensuring SteamVR/OpenXR is opened first.
+4. locate BP_SerialCom_v4_UE510 in the assets and change the port based on the port of your Arduino board along with the highestBPM iin the Blueprint.
+5. Next to the play button in Unreal Engine, click the three dots and select "VR Preview."
+6. If VR Preview is greyed out, close Unreal Engine, SteamVR/OpenXR, and reopen them, ensuring SteamVR/OpenXR is opened first.
 
 Note: Primarily, we use SteamVR, but you can find tutorials on how to use OpenXR if preferred.
 
